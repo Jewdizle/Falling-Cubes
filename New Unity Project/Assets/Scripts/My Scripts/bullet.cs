@@ -6,10 +6,13 @@ public class bullet : MonoBehaviour
 {
     public Rigidbody rb;
     public float bulletSpeed;
-    // Start is called before the first frame update
+
+    public float deathWait;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        Destroy(gameObject, deathWait);
     }
 
     // Update is called once per frame
@@ -18,3 +21,4 @@ public class bullet : MonoBehaviour
         rb.AddForce(transform.forward * bulletSpeed);
     }
 }
+

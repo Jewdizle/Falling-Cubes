@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -4491533144815115809}
   m_Layer: 0
   m_Name: Line
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,6 +159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   bulletSpeed: 500
+  deathWait: 5
 --- !u!65 &-4491533144815115809
 BoxCollider:
   m_ObjectHideFlags: 0

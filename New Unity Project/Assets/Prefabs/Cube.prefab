@@ -121,6 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82abca301f9480046b4e915d2a78e57d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitCount: 10
-  radius: 20
-  power: 500
+  hitCount: 5
+  radius: 200
+  power: 5000
+  explosion: {fileID: 2213900834459943350, guid: c87fdcaa4d1af0b48955ad61182b21d0,
+    type: 3}
